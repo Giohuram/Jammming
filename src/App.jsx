@@ -1,16 +1,14 @@
 import React  from 'react'
-import { Button } from 'flowbite-react';
+// import { Button } from 'flowbite-react';
 
 import './App.css'
+import NavBar from './components/NavBar.jsx'
 
 function App() {
 
   return (
     <div>
-        <h1 className="text-3xl font-bold underline">
-          Ja<span className='decoration-[#6239ee]'>mmm</span>ing 
-        </h1>
-        <Button>Click me</Button>
+        <NavBar />
   </div>
 
   )
