@@ -1,15 +1,29 @@
-import React  from 'react'
+// import React  from 'react'
 // import { Button } from 'flowbite-react';
 
 import './App.css'
 import NavBar from './components/NavBar.jsx'
+import Layout from './Layout.jsx'
+// import SearchBar from './components/SearchBar.jsx'
+import Searcher from './Searcher.jsx'
 
 function App() {
 
   return (
-    <div>
+    <>
+      <div>
         <NavBar />
-  </div>
+        <div className='mt-28 text-center'>
+         <Searcher />
+        </div>
+        <div className='items-center'>
+         <Layout />
+        </div>
+       
+        
+      </div>
+    </>
+    
 
   )
 }
