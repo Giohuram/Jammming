@@ -4,7 +4,7 @@ import Playlist from './components/Playlist.jsx'
 
 const Layout = () => {
   return (
-    <div className='flex mt-20 w-max h-auto'>
+    <div className='flex mt-20 w-max h-auto space-x-10'>
         <div className=''>
          <SearchResults /> 
         </div> 

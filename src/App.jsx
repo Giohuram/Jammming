@@ -16,11 +16,10 @@ function App() {
         <div className='mt-28 text-center'>
          <Searcher />
         </div>
-        <div className='items-center'>
+        <div className='mt-36 ml-96'>
          <Layout />
         </div>
        
-        
       </div>
     </>
     
